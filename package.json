@@ -1,0 +1,14 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "The is a Wheather Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Puvaan Raaj",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #add8e6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      form {
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 5px;
+        border-color: black;
+        text-align: center;
+      }
+
+      label {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      input[type="text"] {
+        font-size: 16px;
+        padding: 8px;
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+
+      button[type="submit"] {
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: none;
+        background-color: #4caf50;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      .weather-container {
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f9fa;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+      footer a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      footer a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+      }
+
+      @media (max-width: 480px) {
+        form {
+          width: 100%;
+          max-width: 300px;
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="weather-container">
+      <form action="/" method="POST">
+        <label for="location">Enter The City Name: </label>
+        <input type="text" name="location" id="location" />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <p>
+        &copy; 2023 Puvaan Raaj. Learned based on The Complete 2023 Web
+        Development Bootcamp from Udemy.
+      </p>
+      <p>
+        <a href="https://github.com/your-github-username" target="_blank"
+          >GitHub</a
+        >
+        |
+        <a
+          href="https://www.linkedin.com/in/your-linkedin-username"
+          target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://www.tiktok.com/@your-tiktok-username" target="_blank"
+          >TikTok</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
