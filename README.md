@@ -36,8 +36,8 @@ cd weather-app
 # 3. Install required dependencies
 npm install
 
-# 4. change the appid to your OpenWeatherMap API key.
-echo "TOKEN=your_api_key_here" > .env
+# 4. change the appid in the app.js to your OpenWeatherMap API key.
+const appid = {your Api Key}
 
 # 5. Start the server.
 node app.js
