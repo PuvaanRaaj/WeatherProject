@@ -4,6 +4,11 @@ This weather app is a simple web application that allows users to check the curr
 
 ![Weather App Screenshot](./images/screenshot.png)
 
+## ⚠️ Disclaimer
+
+Please note that this application uses the free tier of the OpenWeatherMap API, which is limited to 60 calls per minute and 1,000,000 calls per month. Be mindful of these limitations when using the app.
+
+
 ## Features
 
 - Search for any city in the world
@@ -21,38 +26,35 @@ This weather app is a simple web application that allows users to check the curr
 
 ## How to Run Locally
 
-1. Clone the repository to your local machine.
-
 ```bash
+# 1. Clone the repository to your local machine.
 git clone https://github.com/yourusername/weather-app.git
 
-2. Navigate to the project directory
-
+# 2. Navigate to the project directory
 cd weather-app
 
-3. Install required dependecies
+# 3. Install required dependencies
 npm install
 
-4.Create a .env file in the project root directory and add your OpenWeatherMap API key.
+# 4. change the appid to your OpenWeatherMap API key.
+echo "TOKEN=your_api_key_here" > .env
 
-TOKEN=your_api_key_here
-
-5.Start the server.
+# 5. Start the server.
 node app.js
 
-6.Open your browser and navigate to http://localhost:3000.
+# 6. Open your browser and navigate to http://localhost:3000.
 
+``` 
 ## Credits
-Weather data provided by OpenWeatherMap
-Background images and icons are from Unsplash and Font Awesome
+
+Weather data provided by OpenWeatherMap\
+Background images and icons are from Unsplash and Font Awesome\
 Inspired by The Complete 2023 Web Development Bootcamp from Udemy
-Author
-Puvaan Raaj - GitHub | LinkedIn | TikTok
+
+## Author
+
+Puvaan Raaj - [GitHub](https://github.com/PuvaanRaaj) | [LinkedIn](https://www.linkedin.com/in/puvaan-raaj-65385a157/) | [TikTok](https://www.tiktok.com/@_puvaanraaj2001)
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-vbnet
-
-
-Make sure to replace the placeholder links (e.g., `yo
