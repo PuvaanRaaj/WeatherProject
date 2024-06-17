@@ -53,7 +53,7 @@ Inspired by The Complete 2023 Web Development Bootcamp from Udemy
 
 ## Author
 
-Puvaan Raaj - [GitHub](https://github.com/PuvaanRaaj) | [LinkedIn](https://www.linkedin.com/in/puvaan-raaj-65385a157/) | [TikTok](https://www.tiktok.com/@_puvaanraaj2001)
+Puvaan Raaj - [GitHub](https://github.com/PuvaanRaaj) | [LinkedIn](https://www.linkedin.com/in/puvaan-raaj-65385a157/)
 
 ## License
 
