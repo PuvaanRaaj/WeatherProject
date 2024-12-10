@@ -112,11 +112,10 @@ app.post("/", (req, res) => {
       res.write(`
     </div>
     <footer>
-    <p>&copy; 2023 Puvaan Raaj. Learned based on The Complete 2023 Web Development Bootcamp from Udemy.</p>
+    <p>&copy; 2024 Puvaan Raaj.</p>
     <p>
         <a href="https://github.com/PuvaanRaaj" target="_blank">GitHub</a> | 
-        <a href="https://www.linkedin.com/in/puvaan-raaj-65385a157/" target="_blank">LinkedIn</a> | 
-        <a href="https://www.tiktok.com/@_puvaanraaj2001" target="_blank">TikTok</a>
+        <a href="https://www.linkedin.com/in/puvaan-raaj-65385a157/" target="_blank">LinkedIn</a>
     </p>
 </footer>
 </body>
